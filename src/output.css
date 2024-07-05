@@ -446,6 +446,16 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: "Poppins", sans-serif;
+
+  font-weight: 300;
+
+  font-style: normal;
+
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -554,15 +564,19 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.m-5 {
+  margin: 1.25rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
+.p-4 {
+  padding: 1rem;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
 }

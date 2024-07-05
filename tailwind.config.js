@@ -2,8 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
-  },
+      fontFamily:{
+         'logo': ''
+      },
+      extends: {
+         fontSize:{
+            'title-large': '120px'
+         }
+      }
+   
+   },
   plugins: [],
 }
 
